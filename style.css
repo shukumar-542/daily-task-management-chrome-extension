@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input, select, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+  }
+  .task-container {
+    text-align: center;
+  }
+  .display-task{
+    display: flex;
+  }
+  .edit-button, .delete-button{
+    border: none;
+    display: inline;
+    cursor: pointer;
+  }
+  
